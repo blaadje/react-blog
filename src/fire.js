@@ -7,5 +7,5 @@ var config = {
   storageBucket: "blog-d86fd.appspot.com",
   messagingSenderId: "496914051611"
 };
-firebase.initializeApp(config);
+var fire = firebase.initializeApp(config);
 export default fire;

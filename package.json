@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "^4.4.0",
+    "mobx": "^3.3.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "^4.2.0",
@@ -15,5 +16,14 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "babel": {
+    "plugins": [
+      "transform-decorators-legacy"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
